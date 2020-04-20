@@ -24,7 +24,7 @@ console.log(publicDirectoryPath)
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather App!',
+        title: 'Weather Update',
         name: 'Nasir Fareed Shah'
     })
 })
