@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": null,
     "start": "node src/app.js"
   },
   "keywords": [],
