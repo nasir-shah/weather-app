@@ -6,7 +6,7 @@ const forecast = (lon,lat,callback)=>{
         if(error){
             callback('Unable to connect to the internet!',undefined)
         }else if(!(response.body.main)){
-            callback('Something is wrong with the API call', undefined)
+            callback('Something is wrong with this API call.', undefined)
         }else{
             callback(undefined,response.body.main)
         }
